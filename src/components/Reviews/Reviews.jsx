@@ -2,6 +2,7 @@ import "./Reviews.css";
 import { Link } from "react-router-dom";
 
 function Reviews({ reviews }) {
+  // contains and renders the list of Review components from the API to use
   return (
     <div className="reviews">
       <ul className="reviews__list">
